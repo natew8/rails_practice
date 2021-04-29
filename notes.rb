@@ -7,6 +7,8 @@
 
 #TODO Creating a Scafold with generate 
 #* a scafold will set up all of the framework needed to run CRUD logic.
+#* We can add new rows to the table, update info, and delete info. 
+#* This command will also create all the pages, inputs, and forms needed to do this logic. 
 #? To create the scafold from the terminal, run command: 
 # rails g scafold {table name} {columns in the table and their data types.}
 #* rails g scafold users user_id:integer first_name:string last_name:string email:string gpa:float
